@@ -1,0 +1,23 @@
+{
+  "name": "hocuspocus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server.ts",
+    "dev": "nodemon server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@hocuspocus/extension-database": "^2.15.2",
+    "@hocuspocus/extension-logger": "^2.15.2",
+    "@hocuspocus/server": "^2.15.2",
+    "@supabase/supabase-js": "^2.49.4",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
